@@ -7,6 +7,17 @@ to a text file stream_metadata.txt in user directory.
 
 - Remember to deactivate it, so as to clean up the text file
 
+## Background
+
+I love listening to internet radio on VLC as i do some coding sessions.
+
+I programmed this plugin (for the first time ever) over the weekend with a sole goal to
+to roughly capture and log song metadata details (i.e. song title and artist) for later download
+
+Often bangers are played, which then gets me on guilty road, getting me off my zen-mode
+and start searching for the song name, before the next song is played and loose it forever.
+this extension will log all that is played on a text file, so that i can focus on codes :)
+
 ## Disclaimer:
 
 Despite that this plugin 'should' run on all platforms with vlc > 2.11,
@@ -14,7 +25,7 @@ it was developed and tested only on Linux operating system (so far)
 
 YOUR MILLEAGE MAY VARY.
 
-specs details (if needed somehow):
+### specs details (if needed somehow):
 
 OS: NixOS 24.05 (Uakari)
 
@@ -37,12 +48,11 @@ prerequisite: VLC media player, working internet connection.
 
 To access logged stream data, open `~/stream_metadata.txt`
 
-I programmed this plugin (for the first time ever) over the weekend with a goal to
-to roughly capture and log song metadata details (i.e. song title and artist)
-
 plugin GUI (like [vlsub](https://github.com/exebetche/vlsub)) is fairly complicated for me, is yet to be implemented.
 
-## Plans
+## Implementation Plans
+
+Below are implementation Roadmap (This might change in the future)
 
 ### Log stream metadata to a file for later song download
 

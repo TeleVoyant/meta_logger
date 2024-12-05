@@ -95,3 +95,13 @@ what to implement on GUI:
 - click `flag favourite` to flag selected metadata as favourite
 - configure server to download music from ( example: tubidy.id)
 - click `download`, for seamless download of the songs selected on the list
+
+## Thanks
+
+Incase It's not obvious, This plugin was heavily inspired by [vlsub](https://github.com/exebetche/vlsub), Thanks [exebetche](https://github.com/exebetche).
+
+## Issues and Contribution
+
+Any Issues? perhaps Feature request? Open it on the Issues, I'll get back to you.
+
+Wanna Contribute? Hit me up. I'm currently sketching contribution guidelines
